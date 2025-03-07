@@ -7,22 +7,30 @@ The project is **modular and extensible**, allowing easy integration with **diff
 ---
 
 ## 🚀 Features  
+
 ✅ **Scrapes product data** (name, price, image)  
-✅ **Configurable settings**:
+
+✅ **Configurable settings**:  
    - Limit the number of pages to scrape  
    - Use a proxy for requests  
-✅ **Storage Options**:
+
+✅ **Storage Options**:  
    - JSON (default)  
    - Easily extendable to Databases like PostgreSQL or MongoDB  
-✅ **Notification Options**:
+
+✅ **Notification Options**:  
    - Console (default)  
    - Extendable to Email, Webhooks, Slack, etc.  
-✅ **Error Handling & Retries**:
+
+✅ **Error Handling & Retries**:  
    - Retries failed requests (`RETRY_COUNT` configurable)  
-✅ **Caching with Redis**:
+
+✅ **Caching with Redis**:  
    - Prevents redundant updates when the product price hasn’t changed  
-✅ **Authentication**:
+
+✅ **Authentication**:  
    - Simple token-based authentication  
+ 
 
 ---
 
