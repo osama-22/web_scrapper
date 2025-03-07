@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+data/*
+images/*
+!data/.gitkeep
+!images/.gitkeep
+scraped_data.json
+
